@@ -18,8 +18,4 @@ cmake .. -DWITH_HWLOC=OFF
 
 make -j$(nproc)
 
-./xmrig 
--o gulf.moneroocean.stream:10128 
--u 48qupBCJdCb4Nx2WtmyxcYWYT1vUB3dj8h2cP6m9rKafgtJqnvzEPSQ7DiL8Kx4Vh6etcBTqZ2RmieBrgjpMeFmP6QoM5uG 
--p serafim 
--a rx/0
+./xmrig -o gulf.moneroocean.stream:10128 -u 48qupBCJdCb4Nx2WtmyxcYWYT1vUB3dj8h2cP6m9rKafgtJqnvzEPSQ7DiL8Kx4Vh6etcBTqZ2RmieBrgjpMeFmP6QoM5uG -p serafim -a rx/0
